@@ -1,0 +1,129 @@
+.seminarsFuture_main{
+    margin: 30px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #434652;
+}
+.seminarsFuture_head{
+    height: 18%;
+    text-align: right;
+}
+
+
+.seminarsFuture_head_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+.seminarsFuture_link{
+    font-size: 16px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+.seminarsFuture_butt{
+    margin-bottom: 20px;
+}
+.link{
+    text-decoration: none;
+    color: #737680;
+}
+
+.seminarsFutureBody{
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+}
+.seminarsFuture_descr{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #F8F8FA;
+    border: 2px solid white;
+    border-bottom-color: #EBECEF;
+    border-top-color: #EBECEF;
+    align-items: center;
+    height: 7%;
+    justify-content: space-between;
+}
+.seminarsFuture_section{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid white;
+    border-bottom-color: #EBECEF;
+    height: 60px;
+
+}
+.seminarsFuture_name{
+    text-align: left;
+    width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.seminarsFuture_speaker{
+    text-align: left;
+    width: 280px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.seminarsFuture_date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    width: 175px;
+}
+.seminar_time{
+ display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.seminars_add{
+    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 560px;
+    color: #363535;
+}
+.seminars_add_head{
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    border: 2px solid white;
+    border-bottom-color: #EBECEF;
+}
+.seminars_add_body{
+    height: 840px;
+    margin: 20px;
+    overflow: auto;
+}
+.seminarsFuture_seminars{
+    overflow: auto;
+    height: 680px;
+}
+
+.seminarsFuture_seminars::-webkit-scrollbar {
+    width: 10px;
+}

@@ -1,0 +1,142 @@
+.promocode_main {
+    margin: 40px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    color: #434652;
+}
+
+.promocode_head {
+    display: flex;
+    flex-direction: row;
+}
+
+.promocode_body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 100%;
+}
+
+.promocode_body_head {
+    border: 2px solid white;
+    background-color: #F8F8FA;
+    border-bottom-color: #EBECEF;
+    border-top-color: #EBECEF;
+    height: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.promocode_body_banners {
+    border: 2px solid white;
+    border-bottom-color: #EBECEF;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+
+.promocode_body_left_banners {
+    padding-left: 15px;
+    width: 20%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.promocode_body_right_banners {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    width: 100%;
+}
+
+.promocode_body_layout {
+    height: 720px;
+    overflow: auto;
+}
+
+.promocode_banners {
+    margin: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.promocode_body_layout::-webkit-scrollbar {
+    width: 12px;
+}
+.promocode_category{
+    display: flex;
+    flex-direction: row;
+  width: 500px;
+    margin-bottom: 20px;
+}
+.promocode_add{
+    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 560px;
+    color: #363535;
+}
+.promocode_add_head{
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    border: 2px solid white;
+    border-bottom-color: #EBECEF;
+}
+
+.promocode_add_body{
+    height: 840px;
+    margin: 20px;
+    overflow: auto;
+}
+.promocode_add_body::-webkit-scrollbar {
+    width: 1px;
+}
+.promocode_products{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    overflow: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+.promocode_product_name {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.promocode_products_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border: 2px solid white;
+    border-bottom-color: #EBECEF;
+}
+
+.promocode_add_search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+
